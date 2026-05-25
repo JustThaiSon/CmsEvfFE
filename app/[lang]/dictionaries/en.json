@@ -1,0 +1,322 @@
+{
+  "common": {
+    "header": "Header",
+    "footer": "Footer",
+    "language": "Language",
+    "switchLang": "Tiếng Việt"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "detail1": "Detail 1",
+    "detail2": "Detail 2",
+    "cms": "Admin"
+  },
+  "auth": {
+    "login": {
+      "title": "CMS Login",
+      "subtitle": "Enter your EVF admin credentials",
+      "userName": "Username",
+      "password": "Password",
+      "submit": "Sign in",
+      "userNameRequired": "Please enter your username",
+      "passwordRequired": "Please enter your password",
+      "loginFailed": "Invalid username or password"
+    }
+  },
+  "cms": {
+    "brand": "EVF CMS",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "viewSite": "View site",
+    "user": "Administrator",
+    "logout": "Logout",
+    "footer": "© 2026 EVF CMS. Version 0.1.0",
+    "menu": {
+      "contactRequests": "Contact requests",
+      "jobs": "Jobs",
+      "posts": "Posts",
+      "categories": "Categories"
+    },
+    "pages": {
+      "dashboard": {
+        "title": "Dashboard",
+        "description": "Welcome to the content management dashboard."
+      },
+      "posts": {
+        "title": "Posts",
+        "description": "Manage your blog posts."
+      },
+      "pages": {
+        "title": "Pages",
+        "description": "Manage static pages."
+      },
+      "media": {
+        "title": "Media",
+        "description": "Manage images and file uploads."
+      },
+      "settings": {
+        "title": "Settings",
+        "description": "Configure CMS settings."
+      }
+    },
+    "job": {
+      "list": {
+        "title": "Job postings",
+        "create": "Add job",
+        "searchPlaceholder": "Search by title...",
+        "search": "Search",
+        "statusAll": "All statuses",
+        "titleCol": "Title",
+        "statusCol": "Status",
+        "quantityCol": "Quantity",
+        "jobTypeCol": "Job type",
+        "postedAtCol": "Posted at",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": "Delete this job posting?",
+        "empty": "No job postings yet",
+        "loadError": "Failed to load jobs",
+        "deleteSuccess": "Deleted successfully",
+        "deleteError": "Failed to delete",
+        "invalidId": "API returned empty Id — rebuild and restart EVFCmsAPI",
+        "total": "Total: {count} jobs",
+        "statusActive": "Active",
+        "statusInactive": "Inactive",
+        "jobTypeFullTime": "Full-time",
+        "jobTypePartTime": "Part-time",
+        "jobTypeContract": "Contract",
+        "jobTypeInternship": "Internship",
+        "candidates": "Candidates",
+        "candidatesDrawer": {
+          "title": "Candidates — {title}",
+          "fullName": "Full name",
+          "email": "Email",
+          "phone": "Phone",
+          "address": "Address",
+          "message": "Message",
+          "createdDate": "Applied at",
+          "cv": "CV",
+          "viewCv": "View CV",
+          "previewTitle": "CV — {name}",
+          "previewUnsupported": "This file type (.doc, .docx…) cannot be previewed in the browser. Use \"Open in new tab\" to open or download it.",
+          "openInNewTab": "Open in new tab",
+          "empty": "No applications for this job yet",
+          "loadError": "Failed to load candidates",
+          "total": "Total: {count} candidates"
+        }
+      },
+      "form": {
+        "createTitle": "Add job posting",
+        "editTitle": "Edit job posting",
+        "back": "Back to list",
+        "save": "Save",
+        "createSuccess": "Job created successfully",
+        "updateSuccess": "Translations updated successfully",
+        "saveError": "Failed to save",
+        "loadError": "Failed to load detail",
+        "notFound": "Job not found",
+        "metadata": "General info",
+        "translations": "Translations",
+        "status": "Status",
+        "quantity": "Headcount",
+        "jobType": "Job type",
+        "postedAt": "Posted at",
+        "statusActive": "Active",
+        "statusInactive": "Inactive",
+        "jobTypeFullTime": "Full-time",
+        "jobTypePartTime": "Part-time",
+        "jobTypeContract": "Contract",
+        "jobTypeInternship": "Internship",
+        "editMetadataHint": "The API only updates translations on edit. General fields can be set when creating a job.",
+        "fieldTitle": "Title",
+        "fieldLocation": "Location",
+        "fieldSalary": "Salary",
+        "fieldDescription": "Description",
+        "fieldLevel": "Level",
+        "langVi": "Vietnamese",
+        "langEn": "English",
+        "translationsRequired": "Enter at least one translation",
+        "editor": {
+          "uploadHtml": "Upload HTML file to server",
+          "uploadToServer": "Save HTML to server",
+          "downloadHtml": "Download to device",
+          "uploadImage": "Insert image",
+          "preview": "Preview",
+          "source": "HTML source",
+          "visual": "Visual editor",
+          "htmlOnly": "Only .html files are allowed",
+          "imageUploadSuccess": "Image uploaded",
+          "imageUploadError": "Image upload failed",
+          "htmlLoadSuccess": "HTML file uploaded to server",
+          "htmlLoadError": "Failed to load HTML content",
+          "htmlUploadSuccess": "HTML link saved on server",
+          "htmlUploadError": "Failed to save HTML to server",
+          "linkPrompt": "Enter link URL:",
+          "savedLink": "Saved server link",
+          "loadingHtml": "Loading HTML content..."
+        }
+      }
+    },
+    "category": {
+      "list": {
+        "title": "Categories",
+        "create": "Add category",
+        "nameCol": "Category name",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": "Delete this category?",
+        "empty": "No categories yet",
+        "loadError": "Failed to load categories",
+        "deleteSuccess": "Deleted successfully",
+        "deleteError": "Failed to delete",
+        "invalidId": "API returned empty Id",
+        "total": "Total: {count} categories"
+      },
+      "form": {
+        "createTitle": "Add category",
+        "editTitle": "Edit category",
+        "back": "Back to list",
+        "save": "Save",
+        "createSuccess": "Category created successfully",
+        "updateSuccess": "Category updated successfully",
+        "saveError": "Failed to save",
+        "loadError": "Failed to load detail",
+        "notFound": "Category not found",
+        "translations": "Multilingual name",
+        "fieldName": "Category name",
+        "langVi": "Vietnamese",
+        "langEn": "English",
+        "nameRequired": "Enter category name (Vietnamese at minimum)"
+      }
+    },
+    "new": {
+      "list": {
+        "title": "Posts",
+        "create": "Add post",
+        "titleCol": "Title",
+        "thumbnailCol": "Thumbnail",
+        "statusCol": "Status",
+        "featuredCol": "Featured",
+        "createdAtCol": "Created",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": "Delete this post?",
+        "empty": "No posts yet",
+        "loadError": "Failed to load posts",
+        "deleteSuccess": "Deleted successfully",
+        "deleteError": "Failed to delete",
+        "invalidId": "API returned empty Id",
+        "total": "Total: {count} posts",
+        "statusActive": "Published",
+        "statusInactive": "Hidden",
+        "featuredYes": "Yes",
+        "featuredNo": "No"
+      },
+      "form": {
+        "createTitle": "Add post",
+        "editTitle": "Edit post",
+        "back": "Back to list",
+        "save": "Save",
+        "createSuccess": "Post created successfully",
+        "updateSuccess": "Post updated successfully",
+        "saveError": "Failed to save",
+        "loadError": "Failed to load detail",
+        "notFound": "Post not found",
+        "metadata": "General info",
+        "translations": "Translations",
+        "status": "Status",
+        "isFeatured": "Featured",
+        "categoryId": "Category",
+        "categoryIdRequired": "Select a category",
+        "categoryPlaceholder": "Select post category",
+        "categoryLoadError": "Failed to load categories",
+        "manageCategories": "Add a new category",
+        "thumbnail": "Thumbnail",
+        "thumbnailUpload": "Upload image",
+        "thumbnailUploadError": "Image upload failed",
+        "statusActive": "Published",
+        "statusInactive": "Hidden",
+        "featuredYes": "Yes",
+        "featuredNo": "No",
+        "fieldTitle": "Title",
+        "fieldDescription": "Description",
+        "langVi": "Vietnamese",
+        "langEn": "English",
+        "translationsRequired": "Enter at least one translation",
+        "titleRequired": "Enter a title (Vietnamese at minimum)",
+        "editor": {
+          "uploadHtml": "Upload HTML file to server",
+          "uploadToServer": "Save HTML to server",
+          "downloadHtml": "Download to device",
+          "uploadImage": "Insert image",
+          "preview": "Preview",
+          "source": "HTML source",
+          "visual": "Visual editor",
+          "htmlOnly": "Only .html files are allowed",
+          "imageUploadSuccess": "Image uploaded",
+          "imageUploadError": "Image upload failed",
+          "htmlLoadSuccess": "HTML file uploaded to server",
+          "htmlLoadError": "Failed to load HTML content",
+          "htmlUploadSuccess": "HTML link saved on server",
+          "htmlUploadError": "Failed to save HTML to server",
+          "linkPrompt": "Enter link URL:",
+          "savedLink": "Saved server link",
+          "loadingHtml": "Loading HTML content..."
+        }
+      }
+    },
+    "contactRequest": {
+      "list": {
+        "title": "Contact requests",
+        "fullName": "Full name",
+        "email": "Email",
+        "phone": "Phone",
+        "createdDate": "Submitted at",
+        "actions": "Actions",
+        "viewDetail": "View",
+        "agreed": "Agreed",
+        "notAgreed": "Not agreed",
+        "empty": "No contact requests yet",
+        "loadError": "Failed to load contact requests",
+        "total": "Total: {count} requests"
+      },
+      "detail": {
+        "title": "Contact request detail",
+        "back": "Back to list",
+        "fullName": "Full name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "isAgreed": "Terms agreed",
+        "agreed": "Yes",
+        "notAgreed": "No",
+        "createdDate": "Submitted at",
+        "loadError": "Failed to load detail",
+        "notFound": "Contact request not found"
+      }
+    }
+  },
+  "home": {
+    "title": "Antd Demo",
+    "greeting": "Hello there 😄"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "This is our about page."
+  },
+  "detail": {
+    "title": "Detail",
+    "detail1": {
+      "title": "Detail 1",
+      "description": "Content of detail page 1."
+    },
+    "detail2": {
+      "title": "Detail 2",
+      "description": "Content of detail page 2."
+    }
+  }
+}

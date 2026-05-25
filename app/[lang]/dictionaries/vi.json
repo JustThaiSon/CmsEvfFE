@@ -1,0 +1,322 @@
+{
+  "common": {
+    "header": "Tiêu đề",
+    "footer": "Chân trang",
+    "language": "Ngôn ngữ",
+    "switchLang": "English"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "detail1": "Chi tiết 1",
+    "detail2": "Chi tiết 2",
+    "cms": "Quản trị"
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng nhập CMS",
+      "subtitle": "Nhập tài khoản quản trị EVF",
+      "userName": "Tên đăng nhập",
+      "password": "Mật khẩu",
+      "submit": "Đăng nhập",
+      "userNameRequired": "Vui lòng nhập tên đăng nhập",
+      "passwordRequired": "Vui lòng nhập mật khẩu",
+      "loginFailed": "Tên đăng nhập hoặc mật khẩu không đúng"
+    }
+  },
+  "cms": {
+    "brand": "EVF CMS",
+    "collapse": "Thu gọn",
+    "expand": "Mở rộng",
+    "viewSite": "Xem website",
+    "user": "Quản trị viên",
+    "logout": "Đăng xuất",
+    "footer": "© 2026 EVF CMS. Phiên bản 0.1.0",
+    "menu": {
+      "contactRequests": "Liên hệ",
+      "jobs": "Tuyển dụng",
+      "posts": "Bài viết",
+      "categories": "Danh mục"
+    },
+    "pages": {
+      "dashboard": {
+        "title": "Tổng quan",
+        "description": "Chào mừng đến bảng điều khiển quản trị nội dung."
+      },
+      "posts": {
+        "title": "Bài viết",
+        "description": "Quản lý danh sách bài viết."
+      },
+      "pages": {
+        "title": "Trang",
+        "description": "Quản lý các trang tĩnh."
+      },
+      "media": {
+        "title": "Thư viện",
+        "description": "Quản lý hình ảnh và tệp đính kèm."
+      },
+      "settings": {
+        "title": "Cài đặt",
+        "description": "Cấu hình hệ thống CMS."
+      }
+    },
+    "job": {
+      "list": {
+        "title": "Quản lý tuyển dụng",
+        "create": "Thêm tin tuyển dụng",
+        "searchPlaceholder": "Tìm theo tiêu đề...",
+        "search": "Tìm kiếm",
+        "statusAll": "Tất cả trạng thái",
+        "titleCol": "Tiêu đề",
+        "statusCol": "Trạng thái",
+        "quantityCol": "Số lượng",
+        "jobTypeCol": "Loại hình",
+        "postedAtCol": "Ngày đăng",
+        "actions": "Thao tác",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "deleteConfirm": "Xóa tin tuyển dụng này?",
+        "empty": "Chưa có tin tuyển dụng",
+        "loadError": "Không tải được danh sách",
+        "deleteSuccess": "Xóa thành công",
+        "deleteError": "Xóa thất bại",
+        "invalidId": "API trả về Id rỗng — hãy rebuild và chạy lại EVFCmsAPI",
+        "total": "Tổng: {count} tin",
+        "statusActive": "Đang hiển thị",
+        "statusInactive": "Ẩn",
+        "jobTypeFullTime": "Toàn thời gian",
+        "jobTypePartTime": "Bán thời gian",
+        "jobTypeContract": "Hợp đồng",
+        "jobTypeInternship": "Thực tập",
+        "candidates": "Ứng viên",
+        "candidatesDrawer": {
+          "title": "Ứng viên — {title}",
+          "fullName": "Họ tên",
+          "email": "Email",
+          "phone": "Số điện thoại",
+          "address": "Địa chỉ",
+          "message": "Lời nhắn",
+          "createdDate": "Ngày nộp",
+          "cv": "CV",
+          "viewCv": "Xem CV",
+          "previewTitle": "CV — {name}",
+          "previewUnsupported": "Định dạng file (.doc, .docx…) không xem trực tiếp trên trình duyệt. Dùng «Mở tab mới» để mở hoặc tải file.",
+          "openInNewTab": "Mở tab mới",
+          "empty": "Chưa có ứng viên nộp hồ sơ cho tin này",
+          "loadError": "Không tải được danh sách ứng viên",
+          "total": "Tổng: {count} ứng viên"
+        }
+      },
+      "form": {
+        "createTitle": "Thêm tin tuyển dụng",
+        "editTitle": "Sửa tin tuyển dụng",
+        "back": "Quay lại danh sách",
+        "save": "Lưu",
+        "createSuccess": "Tạo tin tuyển dụng thành công",
+        "updateSuccess": "Cập nhật bản dịch thành công",
+        "saveError": "Lưu thất bại",
+        "loadError": "Không tải được chi tiết",
+        "notFound": "Không tìm thấy tin tuyển dụng",
+        "metadata": "Thông tin chung",
+        "translations": "Nội dung đa ngôn ngữ",
+        "status": "Trạng thái",
+        "quantity": "Số lượng tuyển",
+        "jobType": "Loại hình",
+        "postedAt": "Ngày đăng",
+        "statusActive": "Đang hiển thị",
+        "statusInactive": "Ẩn",
+        "jobTypeFullTime": "Toàn thời gian",
+        "jobTypePartTime": "Bán thời gian",
+        "jobTypeContract": "Hợp đồng",
+        "jobTypeInternship": "Thực tập",
+        "editMetadataHint": "API hiện chỉ cho phép cập nhật nội dung đa ngôn ngữ. Thông tin chung chỉ chỉnh khi tạo mới.",
+        "fieldTitle": "Tiêu đề",
+        "fieldLocation": "Địa điểm",
+        "fieldSalary": "Mức lương",
+        "fieldDescription": "Mô tả",
+        "fieldLevel": "Cấp bậc",
+        "langVi": "Tiếng Việt",
+        "langEn": "English",
+        "translationsRequired": "Nhập ít nhất một nội dung dịch",
+        "editor": {
+          "uploadHtml": "Tải file HTML lên server",
+          "uploadToServer": "Lưu HTML lên server",
+          "downloadHtml": "Tải xuống máy",
+          "uploadImage": "Chèn ảnh",
+          "preview": "Xem trước",
+          "source": "Mã HTML",
+          "visual": "Soạn thảo",
+          "htmlOnly": "Chỉ chấp nhận file .html",
+          "imageUploadSuccess": "Tải ảnh thành công",
+          "imageUploadError": "Tải ảnh thất bại",
+          "htmlLoadSuccess": "Đã tải file HTML lên server",
+          "htmlLoadError": "Không tải được nội dung HTML",
+          "htmlUploadSuccess": "Đã lưu link HTML lên server",
+          "htmlUploadError": "Lưu HTML lên server thất bại",
+          "linkPrompt": "Nhập URL liên kết:",
+          "savedLink": "Link lưu trên server",
+          "loadingHtml": "Đang tải nội dung HTML..."
+        }
+      }
+    },
+    "category": {
+      "list": {
+        "title": "Quản lý danh mục",
+        "create": "Thêm danh mục",
+        "nameCol": "Tên danh mục",
+        "actions": "Thao tác",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "deleteConfirm": "Xóa danh mục này?",
+        "empty": "Chưa có danh mục",
+        "loadError": "Không tải được danh sách",
+        "deleteSuccess": "Xóa thành công",
+        "deleteError": "Xóa thất bại",
+        "invalidId": "API trả về Id rỗng",
+        "total": "Tổng: {count} danh mục"
+      },
+      "form": {
+        "createTitle": "Thêm danh mục",
+        "editTitle": "Sửa danh mục",
+        "back": "Quay lại danh sách",
+        "save": "Lưu",
+        "createSuccess": "Tạo danh mục thành công",
+        "updateSuccess": "Cập nhật danh mục thành công",
+        "saveError": "Lưu thất bại",
+        "loadError": "Không tải được chi tiết",
+        "notFound": "Không tìm thấy danh mục",
+        "translations": "Tên đa ngôn ngữ",
+        "fieldName": "Tên danh mục",
+        "langVi": "Tiếng Việt",
+        "langEn": "English",
+        "nameRequired": "Nhập tên danh mục (ít nhất tiếng Việt)"
+      }
+    },
+    "new": {
+      "list": {
+        "title": "Quản lý bài viết",
+        "create": "Thêm bài viết",
+        "titleCol": "Tiêu đề",
+        "thumbnailCol": "Ảnh",
+        "statusCol": "Trạng thái",
+        "featuredCol": "Nổi bật",
+        "createdAtCol": "Ngày tạo",
+        "actions": "Thao tác",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "deleteConfirm": "Xóa bài viết này?",
+        "empty": "Chưa có bài viết",
+        "loadError": "Không tải được danh sách",
+        "deleteSuccess": "Xóa thành công",
+        "deleteError": "Xóa thất bại",
+        "invalidId": "API trả về Id rỗng",
+        "total": "Tổng: {count} bài",
+        "statusActive": "Hiển thị",
+        "statusInactive": "Ẩn",
+        "featuredYes": "Có",
+        "featuredNo": "Không"
+      },
+      "form": {
+        "createTitle": "Thêm bài viết",
+        "editTitle": "Sửa bài viết",
+        "back": "Quay lại danh sách",
+        "save": "Lưu",
+        "createSuccess": "Tạo bài viết thành công",
+        "updateSuccess": "Cập nhật bài viết thành công",
+        "saveError": "Lưu thất bại",
+        "loadError": "Không tải được chi tiết",
+        "notFound": "Không tìm thấy bài viết",
+        "metadata": "Thông tin chung",
+        "translations": "Nội dung đa ngôn ngữ",
+        "status": "Trạng thái",
+        "isFeatured": "Tin nổi bật",
+        "categoryId": "Danh mục",
+        "categoryIdRequired": "Chọn danh mục",
+        "categoryPlaceholder": "Chọn danh mục bài viết",
+        "categoryLoadError": "Không tải được danh mục",
+        "manageCategories": "Thêm danh mục mới",
+        "thumbnail": "Ảnh đại diện",
+        "thumbnailUpload": "Tải ảnh lên",
+        "thumbnailUploadError": "Tải ảnh thất bại",
+        "statusActive": "Hiển thị",
+        "statusInactive": "Ẩn",
+        "featuredYes": "Có",
+        "featuredNo": "Không",
+        "fieldTitle": "Tiêu đề",
+        "fieldDescription": "Mô tả",
+        "langVi": "Tiếng Việt",
+        "langEn": "English",
+        "translationsRequired": "Nhập ít nhất một nội dung dịch",
+        "titleRequired": "Nhập tiêu đề (ít nhất tiếng Việt)",
+        "editor": {
+          "uploadHtml": "Tải file HTML lên server",
+          "uploadToServer": "Lưu HTML lên server",
+          "downloadHtml": "Tải xuống máy",
+          "uploadImage": "Chèn ảnh",
+          "preview": "Xem trước",
+          "source": "Mã HTML",
+          "visual": "Soạn thảo",
+          "htmlOnly": "Chỉ chấp nhận file .html",
+          "imageUploadSuccess": "Tải ảnh thành công",
+          "imageUploadError": "Tải ảnh thất bại",
+          "htmlLoadSuccess": "Đã tải file HTML lên server",
+          "htmlLoadError": "Không tải được nội dung HTML",
+          "htmlUploadSuccess": "Đã lưu link HTML lên server",
+          "htmlUploadError": "Lưu HTML lên server thất bại",
+          "linkPrompt": "Nhập URL liên kết:",
+          "savedLink": "Link lưu trên server",
+          "loadingHtml": "Đang tải nội dung HTML..."
+        }
+      }
+    },
+    "contactRequest": {
+      "list": {
+        "title": "Yêu cầu liên hệ",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "createdDate": "Ngày gửi",
+        "actions": "Thao tác",
+        "viewDetail": "Chi tiết",
+        "agreed": "Đã đồng ý",
+        "notAgreed": "Chưa đồng ý",
+        "empty": "Chưa có yêu cầu liên hệ",
+        "loadError": "Không tải được danh sách liên hệ",
+        "total": "Tổng: {count} yêu cầu"
+      },
+      "detail": {
+        "title": "Chi tiết liên hệ",
+        "back": "Quay lại danh sách",
+        "fullName": "Họ tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "message": "Nội dung",
+        "isAgreed": "Đồng ý điều khoản",
+        "agreed": "Có",
+        "notAgreed": "Không",
+        "createdDate": "Ngày gửi",
+        "loadError": "Không tải được chi tiết",
+        "notFound": "Không tìm thấy yêu cầu liên hệ"
+      }
+    }
+  },
+  "home": {
+    "title": "Demo Antd",
+    "greeting": "Xin chào bạn 😄"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "description": "Đây là trang giới thiệu về chúng tôi."
+  },
+  "detail": {
+    "title": "Chi tiết",
+    "detail1": {
+      "title": "Chi tiết 1",
+      "description": "Nội dung chi tiết trang 1."
+    },
+    "detail2": {
+      "title": "Chi tiết 2",
+      "description": "Nội dung chi tiết trang 2."
+    }
+  }
+}
